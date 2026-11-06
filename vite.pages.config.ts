@@ -16,7 +16,7 @@ const requiredBindings = [
 
 export default defineConfig({
   root,
-  base: '/gulu-cat-game/',
+  base: '/gulu-cat-game-v2/',
   publicDir: false,
   plugins: [react(), {
     name: 'published-home-assets',
