@@ -1,0 +1,874 @@
+{
+  "format": "gulu-game-assets",
+  "schemaVersion": 1,
+  "assets": [
+    {
+      "assetId": "gulu.idle.art-v2",
+      "animationId": "idle",
+      "version": "art-v2",
+      "status": "published",
+      "frames": [
+        {
+          "order": 1,
+          "taskId": "G02-7f8ebd1aabfe2af0",
+          "imagePath": "assets/gulu.idle.art-v2/0001.png",
+          "sha256": "d0c42c2ba53fbaab94ae00f7a8b43663737409d374e31d5242ad4c4883f608f2"
+        },
+        {
+          "order": 2,
+          "taskId": "G02-66942af331b716fc",
+          "imagePath": "assets/gulu.idle.art-v2/0002.png",
+          "sha256": "48171813d890bd5a547301f5862f2d6c7c971cbe0edd1cf9dc1d9b34cb49f1e1"
+        },
+        {
+          "order": 3,
+          "taskId": "G02-767171d4ac02ad45",
+          "imagePath": "assets/gulu.idle.art-v2/0003.png",
+          "sha256": "d6a1ab1208e79d3c982d41bf6dea80b7c1eea2efd6c8a67a5807b845f499c445"
+        }
+      ],
+      "fps": 2,
+      "canvas": {
+        "width": 512,
+        "height": 512
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9375
+      },
+      "facing": "right",
+      "mirrorAllowed": true,
+      "loop": true,
+      "playback": "ping-pong",
+      "markers": [],
+      "sourceSnapshot": "",
+      "approval": {
+        "by": "SH",
+        "at": "2026-10-30T11:17:45.278Z"
+      },
+      "kind": "animation",
+      "publishedAt": "2026-10-30T11:30:47.318Z"
+    },
+    {
+      "assetId": "gulu.walk.art-v1",
+      "animationId": "walk",
+      "version": "art-v1",
+      "status": "published",
+      "frames": [
+        {
+          "order": 1,
+          "taskId": "G02-ff4486b8d4b30fb0",
+          "imagePath": "assets/gulu.walk.art-v1/0001.png",
+          "sha256": "ff4486b8d4b30fb0c291c80236e4ab7af5cffd4c306f4683cde3349187778083"
+        },
+        {
+          "order": 2,
+          "taskId": "G02-fd826e2d52004c73",
+          "imagePath": "assets/gulu.walk.art-v1/0002.png",
+          "sha256": "fd826e2d52004c733bb33f7b9e44fc9acffdc64b4c9b512d76f0ec3ec0e04273"
+        },
+        {
+          "order": 3,
+          "taskId": "G02-ce77ae773af218f7",
+          "imagePath": "assets/gulu.walk.art-v1/0003.png",
+          "sha256": "ce77ae773af218f7b3e9e867fd5d0da0b7e40d36dd248a55d93dd32f5549d5be"
+        },
+        {
+          "order": 4,
+          "taskId": "G02-c09abb6359456400",
+          "imagePath": "assets/gulu.walk.art-v1/0004.png",
+          "sha256": "c09abb63594564005f2953a0598551c274a2745c028f5074ad42add9fb2aa30e"
+        },
+        {
+          "order": 5,
+          "taskId": "G02-ed9f1f00ee0937c4",
+          "imagePath": "assets/gulu.walk.art-v1/0005.png",
+          "sha256": "ed9f1f00ee0937c4c0c93607693f93aca790988fe093fe5d859758f3bd1db6fc"
+        }
+      ],
+      "fps": 5.9880239520958085,
+      "canvas": {
+        "width": 512,
+        "height": 512
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9375
+      },
+      "facing": "right",
+      "mirrorAllowed": true,
+      "loop": true,
+      "playback": "forward",
+      "markers": [],
+      "sourceSnapshot": "",
+      "approval": {
+        "by": "SH",
+        "at": "2026-10-27T13:14:23.181Z"
+      },
+      "kind": "animation",
+      "publishedAt": "2026-10-27T14:05:17.504Z"
+    },
+    {
+      "assetId": "gulu.rest.art-v1",
+      "animationId": "rest",
+      "version": "art-v1",
+      "status": "published",
+      "frames": [
+        {
+          "order": 1,
+          "taskId": "G02-d0b8ae7d71d6c2d4",
+          "imagePath": "assets/gulu.rest.art-v1/0001.png",
+          "sha256": "d0b8ae7d71d6c2d4ba7c7f83378c2969281657d0a91143bbe9a9ab3c0a474715"
+        },
+        {
+          "order": 2,
+          "taskId": "G02-371724e5120a9230",
+          "imagePath": "assets/gulu.rest.art-v1/0002.png",
+          "sha256": "371724e5120a92309ee19ebeba6a31ef1abf05d4031d761c9d6822ea69a62cbe"
+        },
+        {
+          "order": 3,
+          "taskId": "G02-ef0494c840726e5b",
+          "imagePath": "assets/gulu.rest.art-v1/0003.png",
+          "sha256": "ef0494c840726e5b9c84759c4361a34670df4c1f5576a9f22bc909e97e2b0a76"
+        }
+      ],
+      "fps": 0.5,
+      "canvas": {
+        "width": 512,
+        "height": 512
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9375
+      },
+      "facing": "right",
+      "mirrorAllowed": true,
+      "loop": true,
+      "playback": "ping-pong",
+      "markers": [],
+      "sourceSnapshot": "",
+      "approval": {
+        "by": "SH",
+        "at": "2026-10-27T13:45:57.836Z"
+      },
+      "kind": "animation",
+      "publishedAt": "2026-10-27T15:31:31.058Z"
+    },
+    {
+      "assetId": "gulu.sleep_curl.art-v1",
+      "animationId": "sleep_curl",
+      "version": "art-v1",
+      "status": "published",
+      "frames": [
+        {
+          "order": 1,
+          "taskId": "G02-43abb3e10576d3b9",
+          "imagePath": "assets/gulu.sleep_curl.art-v1/0001.png",
+          "sha256": "43abb3e10576d3b9e0e515f2abbad985fa6f622cacd9f82c9622f6ab4ea592df"
+        },
+        {
+          "order": 2,
+          "taskId": "G02-97a80285ee97a9b4",
+          "imagePath": "assets/gulu.sleep_curl.art-v1/0002.png",
+          "sha256": "97a80285ee97a9b4ae55a14995917037e159946043fc00670ab2f4192d3b9dca"
+        },
+        {
+          "order": 3,
+          "taskId": "G02-b837f779d6f5b0eb",
+          "imagePath": "assets/gulu.sleep_curl.art-v1/0003.png",
+          "sha256": "b837f779d6f5b0eb9238fdebbd1ed99a29120972bfb232688376866e3331972a"
+        }
+      ],
+      "fps": 1,
+      "canvas": {
+        "width": 512,
+        "height": 512
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9375
+      },
+      "facing": "right",
+      "mirrorAllowed": true,
+      "loop": true,
+      "playback": "ping-pong",
+      "markers": [],
+      "sourceSnapshot": "",
+      "approval": {
+        "by": "SH",
+        "at": "2026-10-27T13:42:50.709Z"
+      },
+      "kind": "animation",
+      "publishedAt": "2026-10-28T10:08:03.943Z"
+    },
+    {
+      "assetId": "gulu.stretch.art-v1",
+      "animationId": "stretch",
+      "version": "art-v1",
+      "status": "published",
+      "frames": [
+        {
+          "order": 1,
+          "taskId": "G02-2595db3acf54d248",
+          "imagePath": "assets/gulu.stretch.art-v1/0001.png",
+          "sha256": "2595db3acf54d248eaa66edf269ebc73588a047964c2d1f74b8d1765d1f3182e"
+        },
+        {
+          "order": 2,
+          "taskId": "G02-1817a61cf0700477",
+          "imagePath": "assets/gulu.stretch.art-v1/0002.png",
+          "sha256": "1817a61cf07004772f019fa4badad9bfd953bc644cde74c456c10ce26b4eda8a"
+        },
+        {
+          "order": 3,
+          "taskId": "G02-ce8644ffba7071e4",
+          "imagePath": "assets/gulu.stretch.art-v1/0003.png",
+          "sha256": "ce8644ffba7071e49cae1d2c144ea22f2b2ad0e80bc5270f308c5a9b7e27f0e1"
+        },
+        {
+          "order": 4,
+          "taskId": "G02-27e49a12ffd6cbf9",
+          "imagePath": "assets/gulu.stretch.art-v1/0004.png",
+          "sha256": "27e49a12ffd6cbf90d90bfd5d64977ac0c39e2e1031d692a9eb2cf7fb04248b8"
+        },
+        {
+          "order": 5,
+          "taskId": "G02-ec8b1f601a90b916",
+          "imagePath": "assets/gulu.stretch.art-v1/0005.png",
+          "sha256": "ec8b1f601a90b916673abab1034ee14139b0dd1065d4cdbc7866464acb0d3b59"
+        }
+      ],
+      "fps": 2,
+      "canvas": {
+        "width": 512,
+        "height": 512
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9375
+      },
+      "facing": "right",
+      "mirrorAllowed": true,
+      "loop": false,
+      "playback": "forward",
+      "markers": [],
+      "sourceSnapshot": "",
+      "approval": {
+        "by": "SH",
+        "at": "2026-10-27T13:43:53.813Z"
+      },
+      "kind": "animation",
+      "publishedAt": "2026-10-28T10:44:43.032Z"
+    },
+    {
+      "assetId": "gulu.idle_blink.art-v1",
+      "animationId": "idle_blink",
+      "version": "art-v1",
+      "status": "published",
+      "frames": [
+        {
+          "order": 1,
+          "taskId": "G02-7f8ebd1aabfe2af0",
+          "imagePath": "assets/gulu.idle_blink.art-v1/0001.png",
+          "sha256": "d0c42c2ba53fbaab94ae00f7a8b43663737409d374e31d5242ad4c4883f608f2"
+        },
+        {
+          "order": 2,
+          "taskId": "G02-3dbb6dbc50328384",
+          "imagePath": "assets/gulu.idle_blink.art-v1/0002.png",
+          "sha256": "d49b75bb357da872724be558acc1af3722ba3264ae9c4716cbff66f795e3ecfb"
+        },
+        {
+          "order": 3,
+          "taskId": "G02-26fdbcbbab0ad510",
+          "imagePath": "assets/gulu.idle_blink.art-v1/0003.png",
+          "sha256": "2302debc5727f61c50f868a44ec1638082de64f759d212d6baad04c699924b12"
+        }
+      ],
+      "fps": 2,
+      "canvas": {
+        "width": 512,
+        "height": 512
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.9375
+      },
+      "facing": "right",
+      "mirrorAllowed": true,
+      "loop": false,
+      "playback": "ping-pong",
+      "markers": [],
+      "sourceSnapshot": "",
+      "approval": {
+        "by": "SH",
+        "at": "2026-10-28T11:54:16.498Z"
+      },
+      "publishedAt": "2026-10-28T12:18:48.643Z",
+      "kind": "animation"
+    },
+    {
+      "assetId": "gulu.scene.background-day.art-v3",
+      "version": "art-v3",
+      "kind": "image",
+      "status": "published",
+      "approval": {
+        "by": "SH",
+        "at": "2026-11-02T13:06:25.946Z"
+      },
+      "canvas": {
+        "width": 1185,
+        "height": 1337
+      },
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "frames": [
+        {
+          "order": 1,
+          "imagePath": "assets/gulu.scene.background-day.art-v3/0001.png",
+          "sha256": "af32e2cc88c74dfc01bb6ceeb4e5df08c40188eff95a6b10be6c499656724fbf"
+        }
+      ],
+      "fps": 1,
+      "loop": false,
+      "playback": "forward",
+      "facing": "right",
+      "mirrorAllowed": false,
+      "markers": [],
+      "sourceSnapshot": "{\"source\":{\"id\":\"b89adc94-3de8-408e-bed4-c37972ebf3a0\",\"specId\":\"background.day\",\"version\":\"art-v3\",\"sourcePath\":\"/assets/art-derived/home/s3-a03b-1-v1/background.day.png\",\"sha256\":\"af32e2cc88c74dfc01bb6ceeb4e5df08c40188eff95a6b10be6c499656724fbf\",\"metrics\":{\"width\":1185,\"height\":1337,\"transparentPixels\":0,\"partialPixels\":0,\"visiblePixels\":1584345,\"bounds\":[0,0,1185,1337]},\"recommendedCanvas\":{\"width\":1560,\"height\":1760},\"masterPath\":\"/assets/art-reference/gulu/橘貓四姿態插畫.png\",\"masterSha256\":\"7974dea2d3e27bc4fd84824e36239667a72f8138b75806b0f5aa1a873da92827\",\"stylePath\":\"/assets/imports/room/溫馨貓咪房間素材設計圖.png\",\"notes\":\"S3-A03B-1: padding only; original pixels preserved. Human visual review required; not approved or published.\",\"createdAt\":\"2026-10-30T17:28:19.916Z\",\"derivation\":{\"stage\":\"S3-A03B-1\",\"parentCandidateId\":\"68417588-5d4a-4b7a-add3-de0958541aed\",\"parentVersion\":\"art-v2\",\"sourcePath\":\"/assets/imports/room/background.day.png\",\"sourceSha256\":\"1c57ef3fce4afdaa0f1a628f4f8947afa95a510108c06071aeb4f39a992d1b80\",\"sourceWidth\":1181,\"sourceHeight\":1332,\"mode\":\"edge-extend\",\"padding\":{\"left\":2,\"top\":2,\"right\":2,\"bottom\":3}}},\"spec\":{\"id\":\"background.day\",\"assetId\":\"gulu.scene.background-day\",\"objectId\":\"cozy-room.background\",\"binding\":\"image.room.cozy-room.background\",\"kind\":\"scene\",\"x\":0,\"y\":0,\"width\":390,\"height\":440,\"outputWidth\":1560,\"outputHeight\":1760,\"transparent\":false,\"layer\":0,\"note\":\"固定白天；只有牆壁、地板及固定質感；不得包含六件獨立家具。\",\"candidate\":\"\"},\"style\":\"日系醜萌手繪、粗黑自然抖線、平面蠟筆質地；奶油白、暖橘、淡紫、溫暖木質色。禁止精緻 3D 或一般卡通。\"}",
+      "sceneImage": {
+        "assetId": "gulu.scene.background-day",
+        "packageAssetId": "gulu.scene.background-day.art-v3",
+        "sceneObjectId": "cozy-room.background",
+        "category": "scene",
+        "displayRect": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 440
+        },
+        "recommendedCanvas": {
+          "width": 1560,
+          "height": 1760
+        },
+        "transparency": "opaque",
+        "visualAnchor": {
+          "x": 0,
+          "y": 0
+        },
+        "renderLayer": 0,
+        "sourceImage": {
+          "path": "/assets/art-derived/home/s3-a03b-1-v1/background.day.png",
+          "sha256": "af32e2cc88c74dfc01bb6ceeb4e5df08c40188eff95a6b10be6c499656724fbf"
+        },
+        "candidateVersion": "art-v3",
+        "reviewStatus": "approved",
+        "publishedVersion": null,
+        "derivation": {
+          "stage": "S3-A03B-1",
+          "parentCandidateId": "68417588-5d4a-4b7a-add3-de0958541aed",
+          "parentVersion": "art-v2",
+          "sourcePath": "/assets/imports/room/background.day.png",
+          "sourceSha256": "1c57ef3fce4afdaa0f1a628f4f8947afa95a510108c06071aeb4f39a992d1b80",
+          "sourceWidth": 1181,
+          "sourceHeight": 1332,
+          "mode": "edge-extend",
+          "padding": {
+            "left": 2,
+            "top": 2,
+            "right": 2,
+            "bottom": 3
+          }
+        },
+        "placementSource": "S3: src/scene/furnitureLayout.ts; read-only",
+        "canvasPolicy": "advisory; never automatically resample"
+      },
+      "publishedAt": "2026-11-02T14:50:56.616Z"
+    },
+    {
+      "assetId": "gulu.furniture.window.art-v4",
+      "version": "art-v4",
+      "kind": "image",
+      "status": "published",
+      "approval": {
+        "by": "SH",
+        "at": "2026-11-02T13:07:53.344Z"
+      },
+      "canvas": {
+        "width": 1182,
+        "height": 1342
+      },
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "frames": [
+        {
+          "order": 1,
+          "imagePath": "assets/gulu.furniture.window.art-v4/0001.png",
+          "sha256": "3fe8213ef6bbcb6eafbcfc5a81437a655b13b7e865ef3e15e90483f61413795d"
+        }
+      ],
+      "fps": 1,
+      "loop": false,
+      "playback": "forward",
+      "facing": "right",
+      "mirrorAllowed": false,
+      "markers": [],
+      "sourceSnapshot": "{\"source\":{\"id\":\"5d10cd50-a5a9-4f11-8ee9-ee5469f0077d\",\"specId\":\"window\",\"version\":\"art-v4\",\"sourcePath\":\"/assets/art-derived/home/s3-a03b-1-v1/window.png\",\"sha256\":\"3fe8213ef6bbcb6eafbcfc5a81437a655b13b7e865ef3e15e90483f61413795d\",\"metrics\":{\"width\":1182,\"height\":1342,\"transparentPixels\":414196,\"partialPixels\":1172032,\"visiblePixels\":1085174,\"bounds\":[18,132,1160,1215]},\"recommendedCanvas\":{\"width\":532,\"height\":604},\"masterPath\":\"/assets/art-reference/gulu/橘貓四姿態插畫.png\",\"masterSha256\":\"7974dea2d3e27bc4fd84824e36239667a72f8138b75806b0f5aa1a873da92827\",\"stylePath\":\"/assets/imports/room/溫馨貓咪房間素材設計圖.png\",\"notes\":\"\",\"createdAt\":\"2026-10-30T18:17:34.291Z\"},\"spec\":{\"id\":\"window\",\"assetId\":\"gulu.furniture.window\",\"objectId\":\"window\",\"binding\":\"image.item.cozy-room.window\",\"kind\":\"furniture\",\"x\":33,\"y\":49,\"width\":133,\"height\":151,\"outputWidth\":532,\"outputHeight\":604,\"transparent\":true,\"layer\":10,\"note\":\"獨立透明家具，方向與小屋視角須人工確認。\",\"candidate\":\"\"},\"style\":\"日系醜萌手繪、粗黑自然抖線、平面蠟筆質地；奶油白、暖橘、淡紫、溫暖木質色。禁止精緻 3D 或一般卡通。\"}",
+      "sceneImage": {
+        "assetId": "gulu.furniture.window",
+        "packageAssetId": "gulu.furniture.window.art-v4",
+        "sceneObjectId": "window",
+        "category": "furniture",
+        "displayRect": {
+          "x": 33,
+          "y": 49,
+          "width": 133,
+          "height": 151
+        },
+        "recommendedCanvas": {
+          "width": 532,
+          "height": 604
+        },
+        "transparency": "transparent",
+        "visualAnchor": {
+          "x": 0,
+          "y": 0
+        },
+        "renderLayer": 10,
+        "sourceImage": {
+          "path": "/assets/art-derived/home/s3-a03b-1-v1/window.png",
+          "sha256": "3fe8213ef6bbcb6eafbcfc5a81437a655b13b7e865ef3e15e90483f61413795d"
+        },
+        "candidateVersion": "art-v4",
+        "reviewStatus": "approved",
+        "publishedVersion": null,
+        "placementSource": "S3: src/scene/furnitureLayout.ts; read-only",
+        "canvasPolicy": "advisory; never automatically resample",
+        "externalProvenance": {
+          "path": "provenance/99865a4386f0011b985f1bb1678b1cd9d7021822b62a40fe1cbd7bb63373aee7.json",
+          "sha256": "99865a4386f0011b985f1bb1678b1cd9d7021822b62a40fe1cbd7bb63373aee7"
+        }
+      },
+      "publishedAt": "2026-11-02T14:50:56.616Z"
+    },
+    {
+      "assetId": "gulu.furniture.sofa.art-v3",
+      "version": "art-v3",
+      "kind": "image",
+      "status": "published",
+      "approval": {
+        "by": "SH",
+        "at": "2026-11-02T13:08:10.636Z"
+      },
+      "canvas": {
+        "width": 1166,
+        "height": 1350
+      },
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "frames": [
+        {
+          "order": 1,
+          "imagePath": "assets/gulu.furniture.sofa.art-v3/0001.png",
+          "sha256": "d99af0b1aa2501f0eb7c31e4aaf4c7b72179f41f0acca9bd2636fe908d5259bb"
+        }
+      ],
+      "fps": 1,
+      "loop": false,
+      "playback": "forward",
+      "facing": "right",
+      "mirrorAllowed": false,
+      "markers": [],
+      "sourceSnapshot": "{\"source\":{\"id\":\"98e988c0-6cfa-47cc-bcc0-4b41fa2d5a3f\",\"specId\":\"sofa\",\"version\":\"art-v3\",\"sourcePath\":\"/assets/art-derived/home/s3-a03b-1-v1/sofa.png\",\"sha256\":\"d99af0b1aa2501f0eb7c31e4aaf4c7b72179f41f0acca9bd2636fe908d5259bb\",\"metrics\":{\"width\":1166,\"height\":1350,\"transparentPixels\":752648,\"partialPixels\":821405,\"visiblePixels\":801792,\"bounds\":[13,273,1161,1197]},\"recommendedCanvas\":{\"width\":380,\"height\":440},\"masterPath\":\"/assets/art-reference/gulu/橘貓四姿態插畫.png\",\"masterSha256\":\"7974dea2d3e27bc4fd84824e36239667a72f8138b75806b0f5aa1a873da92827\",\"stylePath\":\"/assets/imports/room/溫馨貓咪房間素材設計圖.png\",\"notes\":\"\",\"createdAt\":\"2026-10-30T18:17:42.915Z\"},\"spec\":{\"id\":\"sofa\",\"assetId\":\"gulu.furniture.sofa\",\"objectId\":\"sofa\",\"binding\":\"image.item.cozy-room.sofa\",\"kind\":\"furniture\",\"x\":285,\"y\":235,\"width\":95,\"height\":110,\"outputWidth\":380,\"outputHeight\":440,\"transparent\":true,\"layer\":30,\"note\":\"獨立透明家具，方向與小屋視角須人工確認。\",\"candidate\":\"\"},\"style\":\"日系醜萌手繪、粗黑自然抖線、平面蠟筆質地；奶油白、暖橘、淡紫、溫暖木質色。禁止精緻 3D 或一般卡通。\"}",
+      "sceneImage": {
+        "assetId": "gulu.furniture.sofa",
+        "packageAssetId": "gulu.furniture.sofa.art-v3",
+        "sceneObjectId": "sofa",
+        "category": "furniture",
+        "displayRect": {
+          "x": 285,
+          "y": 235,
+          "width": 95,
+          "height": 110
+        },
+        "recommendedCanvas": {
+          "width": 380,
+          "height": 440
+        },
+        "transparency": "transparent",
+        "visualAnchor": {
+          "x": 0,
+          "y": 0
+        },
+        "renderLayer": 30,
+        "sourceImage": {
+          "path": "/assets/art-derived/home/s3-a03b-1-v1/sofa.png",
+          "sha256": "d99af0b1aa2501f0eb7c31e4aaf4c7b72179f41f0acca9bd2636fe908d5259bb"
+        },
+        "candidateVersion": "art-v3",
+        "reviewStatus": "approved",
+        "publishedVersion": null,
+        "placementSource": "S3: src/scene/furnitureLayout.ts; read-only",
+        "canvasPolicy": "advisory; never automatically resample",
+        "externalProvenance": {
+          "path": "provenance/99865a4386f0011b985f1bb1678b1cd9d7021822b62a40fe1cbd7bb63373aee7.json",
+          "sha256": "99865a4386f0011b985f1bb1678b1cd9d7021822b62a40fe1cbd7bb63373aee7"
+        }
+      },
+      "publishedAt": "2026-11-02T14:50:56.616Z"
+    },
+    {
+      "assetId": "gulu.furniture.cat-bed.art-v3",
+      "version": "art-v3",
+      "kind": "image",
+      "status": "published",
+      "approval": {
+        "by": "SH",
+        "at": "2026-11-02T13:08:34.509Z"
+      },
+      "canvas": {
+        "width": 1573,
+        "height": 1001
+      },
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "frames": [
+        {
+          "order": 1,
+          "imagePath": "assets/gulu.furniture.cat-bed.art-v3/0001.png",
+          "sha256": "aec21cb63f4cb80a953ae1df343993e9b72137cd4c64db13916718e06efa2f4f"
+        }
+      ],
+      "fps": 1,
+      "loop": false,
+      "playback": "forward",
+      "facing": "right",
+      "mirrorAllowed": false,
+      "markers": [],
+      "sourceSnapshot": "{\"source\":{\"id\":\"6c53522a-bda8-4202-b251-98f2c2806238\",\"specId\":\"cat-bed\",\"version\":\"art-v3\",\"sourcePath\":\"/assets/art-derived/home/s3-a03b-1-v1/cat-bed.png\",\"sha256\":\"aec21cb63f4cb80a953ae1df343993e9b72137cd4c64db13916718e06efa2f4f\",\"metrics\":{\"width\":1573,\"height\":1001,\"transparentPixels\":574996,\"partialPixels\":999514,\"visiblePixels\":984022,\"bounds\":[67,77,1511,931]},\"recommendedCanvas\":{\"width\":440,\"height\":280},\"masterPath\":\"/assets/art-reference/gulu/橘貓四姿態插畫.png\",\"masterSha256\":\"7974dea2d3e27bc4fd84824e36239667a72f8138b75806b0f5aa1a873da92827\",\"stylePath\":\"/assets/imports/room/溫馨貓咪房間素材設計圖.png\",\"notes\":\"\",\"createdAt\":\"2026-10-30T18:17:19.947Z\"},\"spec\":{\"id\":\"cat-bed\",\"assetId\":\"gulu.furniture.cat-bed\",\"objectId\":\"cat-bed\",\"binding\":\"image.item.cozy-room.cat-bed\",\"kind\":\"furniture\",\"x\":15,\"y\":310,\"width\":110,\"height\":70,\"outputWidth\":440,\"outputHeight\":280,\"transparent\":true,\"layer\":30,\"note\":\"開放式圓窩；優先檢視既有候選，禁止覆蓋原圖。\",\"candidate\":\"/assets/imports/furniture_cat_bed.png\"},\"style\":\"日系醜萌手繪、粗黑自然抖線、平面蠟筆質地；奶油白、暖橘、淡紫、溫暖木質色。禁止精緻 3D 或一般卡通。\"}",
+      "sceneImage": {
+        "assetId": "gulu.furniture.cat-bed",
+        "packageAssetId": "gulu.furniture.cat-bed.art-v3",
+        "sceneObjectId": "cat-bed",
+        "category": "furniture",
+        "displayRect": {
+          "x": 15,
+          "y": 310,
+          "width": 110,
+          "height": 70
+        },
+        "recommendedCanvas": {
+          "width": 440,
+          "height": 280
+        },
+        "transparency": "transparent",
+        "visualAnchor": {
+          "x": 0,
+          "y": 0
+        },
+        "renderLayer": 30,
+        "sourceImage": {
+          "path": "/assets/art-derived/home/s3-a03b-1-v1/cat-bed.png",
+          "sha256": "aec21cb63f4cb80a953ae1df343993e9b72137cd4c64db13916718e06efa2f4f"
+        },
+        "candidateVersion": "art-v3",
+        "reviewStatus": "approved",
+        "publishedVersion": null,
+        "placementSource": "S3: src/scene/furnitureLayout.ts; read-only",
+        "canvasPolicy": "advisory; never automatically resample",
+        "externalProvenance": {
+          "path": "provenance/99865a4386f0011b985f1bb1678b1cd9d7021822b62a40fe1cbd7bb63373aee7.json",
+          "sha256": "99865a4386f0011b985f1bb1678b1cd9d7021822b62a40fe1cbd7bb63373aee7"
+        }
+      },
+      "publishedAt": "2026-11-02T14:50:56.616Z"
+    },
+    {
+      "assetId": "gulu.furniture.rug.art-v3",
+      "version": "art-v3",
+      "kind": "image",
+      "status": "published",
+      "approval": {
+        "by": "SH",
+        "at": "2026-11-02T13:08:58.650Z"
+      },
+      "canvas": {
+        "width": 2034,
+        "height": 780
+      },
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "frames": [
+        {
+          "order": 1,
+          "imagePath": "assets/gulu.furniture.rug.art-v3/0001.png",
+          "sha256": "6d4b7b27ee8aa9711a462fe8ceecb62db01cb9f3a64f8c2e08d7856919a7154e"
+        }
+      ],
+      "fps": 1,
+      "loop": false,
+      "playback": "forward",
+      "facing": "right",
+      "mirrorAllowed": false,
+      "markers": [],
+      "sourceSnapshot": "{\"source\":{\"id\":\"d806982b-4156-46ac-bd7b-8c9dd71707cd\",\"specId\":\"rug\",\"version\":\"art-v3\",\"sourcePath\":\"/assets/art-derived/home/s3-a03b-1-v1/rug.png\",\"sha256\":\"6d4b7b27ee8aa9711a462fe8ceecb62db01cb9f3a64f8c2e08d7856919a7154e\",\"metrics\":{\"width\":2034,\"height\":780,\"transparentPixels\":630124,\"partialPixels\":956368,\"visiblePixels\":939748,\"bounds\":[52,112,1979,720]},\"recommendedCanvas\":{\"width\":824,\"height\":316},\"masterPath\":\"/assets/art-reference/gulu/橘貓四姿態插畫.png\",\"masterSha256\":\"7974dea2d3e27bc4fd84824e36239667a72f8138b75806b0f5aa1a873da92827\",\"stylePath\":\"/assets/imports/room/溫馨貓咪房間素材設計圖.png\",\"notes\":\"\",\"createdAt\":\"2026-10-30T18:14:22.331Z\"},\"spec\":{\"id\":\"rug\",\"assetId\":\"gulu.furniture.rug\",\"objectId\":\"rug\",\"binding\":\"image.item.cozy-room.rug\",\"kind\":\"furniture\",\"x\":95,\"y\":345,\"width\":206,\"height\":79,\"outputWidth\":824,\"outputHeight\":316,\"transparent\":true,\"layer\":20,\"note\":\"獨立透明家具，方向與小屋視角須人工確認。\",\"candidate\":\"\"},\"style\":\"日系醜萌手繪、粗黑自然抖線、平面蠟筆質地；奶油白、暖橘、淡紫、溫暖木質色。禁止精緻 3D 或一般卡通。\"}",
+      "sceneImage": {
+        "assetId": "gulu.furniture.rug",
+        "packageAssetId": "gulu.furniture.rug.art-v3",
+        "sceneObjectId": "rug",
+        "category": "furniture",
+        "displayRect": {
+          "x": 95,
+          "y": 345,
+          "width": 206,
+          "height": 79
+        },
+        "recommendedCanvas": {
+          "width": 824,
+          "height": 316
+        },
+        "transparency": "transparent",
+        "visualAnchor": {
+          "x": 0,
+          "y": 0
+        },
+        "renderLayer": 20,
+        "sourceImage": {
+          "path": "/assets/art-derived/home/s3-a03b-1-v1/rug.png",
+          "sha256": "6d4b7b27ee8aa9711a462fe8ceecb62db01cb9f3a64f8c2e08d7856919a7154e"
+        },
+        "candidateVersion": "art-v3",
+        "reviewStatus": "approved",
+        "publishedVersion": null,
+        "placementSource": "S3: src/scene/furnitureLayout.ts; read-only",
+        "canvasPolicy": "advisory; never automatically resample",
+        "externalProvenance": {
+          "path": "provenance/99865a4386f0011b985f1bb1678b1cd9d7021822b62a40fe1cbd7bb63373aee7.json",
+          "sha256": "99865a4386f0011b985f1bb1678b1cd9d7021822b62a40fe1cbd7bb63373aee7"
+        }
+      },
+      "publishedAt": "2026-11-02T14:50:56.616Z"
+    },
+    {
+      "assetId": "gulu.furniture.plant.art-v3",
+      "version": "art-v3",
+      "kind": "image",
+      "status": "published",
+      "approval": {
+        "by": "SH",
+        "at": "2026-11-02T13:09:17.585Z"
+      },
+      "canvas": {
+        "width": 1079,
+        "height": 1461
+      },
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "frames": [
+        {
+          "order": 1,
+          "imagePath": "assets/gulu.furniture.plant.art-v3/0001.png",
+          "sha256": "eb420932f600eebe8ed491bac8f99329bd88f5b463a91d3edbb6ea5b36816c87"
+        }
+      ],
+      "fps": 1,
+      "loop": false,
+      "playback": "forward",
+      "facing": "right",
+      "mirrorAllowed": false,
+      "markers": [],
+      "sourceSnapshot": "{\"source\":{\"id\":\"1d6dd603-6fff-482c-a637-bbd34d106690\",\"specId\":\"plant\",\"version\":\"art-v3\",\"sourcePath\":\"/assets/art-derived/home/s3-a03b-1-v1/plant.png\",\"sha256\":\"eb420932f600eebe8ed491bac8f99329bd88f5b463a91d3edbb6ea5b36816c87\",\"metrics\":{\"width\":1079,\"height\":1461,\"transparentPixels\":760051,\"partialPixels\":816246,\"visiblePixels\":778804,\"bounds\":[28,68,1060,1409]},\"recommendedCanvas\":{\"width\":192,\"height\":260},\"masterPath\":\"/assets/art-reference/gulu/橘貓四姿態插畫.png\",\"masterSha256\":\"7974dea2d3e27bc4fd84824e36239667a72f8138b75806b0f5aa1a873da92827\",\"stylePath\":\"/assets/imports/room/溫馨貓咪房間素材設計圖.png\",\"notes\":\"\",\"createdAt\":\"2026-10-30T18:17:58.251Z\"},\"spec\":{\"id\":\"plant\",\"assetId\":\"gulu.furniture.plant\",\"objectId\":\"plant\",\"binding\":\"image.item.cozy-room.plant\",\"kind\":\"furniture\",\"x\":330,\"y\":360,\"width\":48,\"height\":65,\"outputWidth\":192,\"outputHeight\":260,\"transparent\":true,\"layer\":50,\"note\":\"獨立透明家具，方向與小屋視角須人工確認。\",\"candidate\":\"\"},\"style\":\"日系醜萌手繪、粗黑自然抖線、平面蠟筆質地；奶油白、暖橘、淡紫、溫暖木質色。禁止精緻 3D 或一般卡通。\"}",
+      "sceneImage": {
+        "assetId": "gulu.furniture.plant",
+        "packageAssetId": "gulu.furniture.plant.art-v3",
+        "sceneObjectId": "plant",
+        "category": "furniture",
+        "displayRect": {
+          "x": 330,
+          "y": 360,
+          "width": 48,
+          "height": 65
+        },
+        "recommendedCanvas": {
+          "width": 192,
+          "height": 260
+        },
+        "transparency": "transparent",
+        "visualAnchor": {
+          "x": 0,
+          "y": 0
+        },
+        "renderLayer": 50,
+        "sourceImage": {
+          "path": "/assets/art-derived/home/s3-a03b-1-v1/plant.png",
+          "sha256": "eb420932f600eebe8ed491bac8f99329bd88f5b463a91d3edbb6ea5b36816c87"
+        },
+        "candidateVersion": "art-v3",
+        "reviewStatus": "approved",
+        "publishedVersion": null,
+        "placementSource": "S3: src/scene/furnitureLayout.ts; read-only",
+        "canvasPolicy": "advisory; never automatically resample",
+        "externalProvenance": {
+          "path": "provenance/99865a4386f0011b985f1bb1678b1cd9d7021822b62a40fe1cbd7bb63373aee7.json",
+          "sha256": "99865a4386f0011b985f1bb1678b1cd9d7021822b62a40fe1cbd7bb63373aee7"
+        }
+      },
+      "publishedAt": "2026-11-02T14:50:56.616Z"
+    },
+    {
+      "assetId": "gulu.furniture.shelf.art-v3",
+      "version": "art-v3",
+      "kind": "image",
+      "status": "published",
+      "approval": {
+        "by": "SH",
+        "at": "2026-11-02T13:09:45.402Z"
+      },
+      "canvas": {
+        "width": 1628,
+        "height": 983
+      },
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "frames": [
+        {
+          "order": 1,
+          "imagePath": "assets/gulu.furniture.shelf.art-v3/0001.png",
+          "sha256": "a728cd09bcec669d5c1eea1ed0f99f93981ac2ce42abf9d675c153d3e2f5b15b"
+        }
+      ],
+      "fps": 1,
+      "loop": false,
+      "playback": "forward",
+      "facing": "right",
+      "mirrorAllowed": false,
+      "markers": [],
+      "sourceSnapshot": "{\"source\":{\"id\":\"9c8ee9ff-5a2a-4240-b70b-08628d92819d\",\"specId\":\"shelf\",\"version\":\"art-v3\",\"sourcePath\":\"/assets/art-derived/home/s3-a03b-1-v1/shelf.png\",\"sha256\":\"a728cd09bcec669d5c1eea1ed0f99f93981ac2ce42abf9d675c153d3e2f5b15b\",\"metrics\":{\"width\":1628,\"height\":983,\"transparentPixels\":1065461,\"partialPixels\":534603,\"visiblePixels\":491667,\"bounds\":[184,23,1505,959]},\"recommendedCanvas\":{\"width\":424,\"height\":256},\"masterPath\":\"/assets/art-reference/gulu/橘貓四姿態插畫.png\",\"masterSha256\":\"7974dea2d3e27bc4fd84824e36239667a72f8138b75806b0f5aa1a873da92827\",\"stylePath\":\"/assets/imports/room/溫馨貓咪房間素材設計圖.png\",\"notes\":\"\",\"createdAt\":\"2026-10-30T18:18:03.115Z\"},\"spec\":{\"id\":\"shelf\",\"assetId\":\"gulu.furniture.shelf\",\"objectId\":\"shelf\",\"binding\":\"image.item.cozy-room.shelf\",\"kind\":\"furniture\",\"x\":247,\"y\":114,\"width\":106,\"height\":64,\"outputWidth\":424,\"outputHeight\":256,\"transparent\":true,\"layer\":10,\"note\":\"獨立透明家具，方向與小屋視角須人工確認。\",\"candidate\":\"\"},\"style\":\"日系醜萌手繪、粗黑自然抖線、平面蠟筆質地；奶油白、暖橘、淡紫、溫暖木質色。禁止精緻 3D 或一般卡通。\"}",
+      "sceneImage": {
+        "assetId": "gulu.furniture.shelf",
+        "packageAssetId": "gulu.furniture.shelf.art-v3",
+        "sceneObjectId": "shelf",
+        "category": "furniture",
+        "displayRect": {
+          "x": 247,
+          "y": 114,
+          "width": 106,
+          "height": 64
+        },
+        "recommendedCanvas": {
+          "width": 424,
+          "height": 256
+        },
+        "transparency": "transparent",
+        "visualAnchor": {
+          "x": 0,
+          "y": 0
+        },
+        "renderLayer": 10,
+        "sourceImage": {
+          "path": "/assets/art-derived/home/s3-a03b-1-v1/shelf.png",
+          "sha256": "a728cd09bcec669d5c1eea1ed0f99f93981ac2ce42abf9d675c153d3e2f5b15b"
+        },
+        "candidateVersion": "art-v3",
+        "reviewStatus": "approved",
+        "publishedVersion": null,
+        "placementSource": "S3: src/scene/furnitureLayout.ts; read-only",
+        "canvasPolicy": "advisory; never automatically resample",
+        "externalProvenance": {
+          "path": "provenance/99865a4386f0011b985f1bb1678b1cd9d7021822b62a40fe1cbd7bb63373aee7.json",
+          "sha256": "99865a4386f0011b985f1bb1678b1cd9d7021822b62a40fe1cbd7bb63373aee7"
+        }
+      },
+      "publishedAt": "2026-11-02T14:50:56.616Z"
+    }
+  ],
+  "animationBindings": [
+    {
+      "key": "animation.idle",
+      "animationId": "idle",
+      "assetId": "gulu.idle.art-v2",
+      "version": "art-v2"
+    },
+    {
+      "key": "animation.walk",
+      "animationId": "walk",
+      "assetId": "gulu.walk.art-v1",
+      "version": "art-v1"
+    },
+    {
+      "key": "animation.rest",
+      "animationId": "rest",
+      "assetId": "gulu.rest.art-v1",
+      "version": "art-v1"
+    },
+    {
+      "key": "animation.sleep_curl",
+      "animationId": "sleep_curl",
+      "assetId": "gulu.sleep_curl.art-v1",
+      "version": "art-v1"
+    },
+    {
+      "key": "animation.stretch",
+      "animationId": "stretch",
+      "assetId": "gulu.stretch.art-v1",
+      "version": "art-v1"
+    },
+    {
+      "key": "animation.idle_blink",
+      "assetId": "gulu.idle_blink.art-v1",
+      "version": "art-v1"
+    }
+  ],
+  "imageBindings": [
+    {
+      "key": "image.room.cozy-room.background",
+      "assetId": "gulu.scene.background-day.art-v3",
+      "version": "art-v3"
+    },
+    {
+      "key": "image.item.cozy-room.window",
+      "assetId": "gulu.furniture.window.art-v4",
+      "version": "art-v4"
+    },
+    {
+      "key": "image.item.cozy-room.sofa",
+      "assetId": "gulu.furniture.sofa.art-v3",
+      "version": "art-v3"
+    },
+    {
+      "key": "image.item.cozy-room.cat-bed",
+      "assetId": "gulu.furniture.cat-bed.art-v3",
+      "version": "art-v3"
+    },
+    {
+      "key": "image.item.cozy-room.rug",
+      "assetId": "gulu.furniture.rug.art-v3",
+      "version": "art-v3"
+    },
+    {
+      "key": "image.item.cozy-room.plant",
+      "assetId": "gulu.furniture.plant.art-v3",
+      "version": "art-v3"
+    },
+    {
+      "key": "image.item.cozy-room.shelf",
+      "assetId": "gulu.furniture.shelf.art-v3",
+      "version": "art-v3"
+    }
+  ]
+}

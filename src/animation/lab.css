@@ -1,0 +1,8 @@
+.animation-lab { max-width: 650px; margin: auto; padding: 20px; background: #fbf8f0; min-height: 100svh; font-size: 13px; line-height: 1.7; }
+.animation-lab h1 { font-size: 24px; }
+.animation-lab h2 { font-size: 18px; }
+.animation-lab output { display: block; padding: 12px; background: #eee8dc; border-radius: 8px; }
+.lab-room { width: 100%; max-width: 390px; margin: 20px 0; }
+.animation-lab button, .animation-lab select { min-height: 44px; margin: 4px; padding: 8px; font: inherit; }
+.lab-sprite { position: relative; width: 96px; height: 128px; margin: 12px 0; }
+.animation-lab li { overflow-wrap: anywhere; }

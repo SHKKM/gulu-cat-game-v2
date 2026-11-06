@@ -1,0 +1,116 @@
+/* S3-01 shell. Keep the legacy scene/player styles available to the animation lab. */
+.s3-app {
+  --ink: #3c332f;
+  --cream: #fff9ed;
+  --orange: #edb389;
+  --lilac: #dcd0ec;
+  min-height: 100vh;
+  min-height: 100svh;
+  color: var(--ink);
+  background: #ebe4f0;
+}
+.s3-home {
+  width: 100%; max-width: 480px; margin-inline: auto;
+  height: 100vh; height: 100svh; height: 100dvh; min-height: 0;
+  position: relative;
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+  padding-left: env(safe-area-inset-left, 0px);
+  padding-right: env(safe-area-inset-right, 0px);
+  display: grid;
+  grid-template-rows: minmax(0, 92fr) minmax(50px, 8fr);
+  background: var(--cream);
+  isolation: isolate;
+}
+.home-header { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 8px 20px; min-width: 0; }
+.home-heading { min-width: 0; }
+.home-heading h1 { font-size: clamp(20px, 5.8vw, 27px); letter-spacing: 1px; line-height: 1.4; font-weight: 700; }
+.home-heading h1 > span { display: inline-block; color: #b77650; margin-left: 8px; font-size: .7em; transform: rotate(13deg); }
+.home-heading p { display: flex; flex-wrap: wrap; gap: 2px 9px; margin: 4px 0 0; font-size: 10px; line-height: 1.5; color: #7d6a5c; }
+.home-heading p > span { color: #927b67; }
+.settings-button { flex: 0 0 44px; width: 44px; height: 44px; padding: 10px; color: var(--ink); background: #f0e8f6; border: 1.8px solid var(--ink); border-radius: 46% 51% 43% 48%; transform: rotate(4deg); cursor: pointer; }
+.settings-button svg { width: 100%; height: 100%; }
+.s3-app button { -webkit-tap-highlight-color: transparent; touch-action: manipulation; }
+.s3-app button:focus-visible, .home-sheet button:focus-visible { outline: 3px solid #9364a4; outline-offset: 3px; }
+.settings-button:active { transform: rotate(0) scale(.95); }
+.home-scene-region { position: relative; min-height: 0; margin: 0 12px; display: flex; flex-direction: column; background: #f6ead5; border: 2.5px solid var(--ink); border-radius: 34px 28px 10px 15px / 24px 30px 10px 14px; box-shadow: 2px 3px 0 #3c332f12; overflow: hidden; }
+.home-room-meta { z-index: 70; display: flex; align-items: center; justify-content: space-between; gap: 8px; min-height: 47px; padding: 11px 14px 7px; font-size: 10px; letter-spacing: 1px; }
+.home-room-meta > span:first-child { display: flex; align-items: center; gap: 6px; }
+.home-room-meta i { width: 6px; height: 6px; border-radius: 50%; background: #b88252; }
+.home-room-meta > span:last-child { padding: 4px 8px; background: #fff8ec; border: 1px solid #b5a28e; border-radius: 12px 9px 12px 8px; letter-spacing: .5px; }
+.home-room-viewport { flex: 1; min-height: 0; position: relative; }
+.home-room-scene.room-scene { width: 100%; height: 100%; aspect-ratio: auto; border: 0; border-radius: 0; box-shadow: none; background: #f1e7d1; background-image: radial-gradient(#b39a7420 .8px, transparent .8px); background-size: 9px 11px; }
+.home-room-scene .scene-art { inset: auto 0 0; width: 100%; height: auto; aspect-ratio: var(--room-aspect, 390 / 440); }
+/* Keep an undistorted, width-based logical scene. Extra height extends the wall. */
+.home-room-scene .scene-object { color: #514238; }
+.home-room-scene .scene-object > svg { stroke-width: 2.6; }
+.home-room-scene .window-frame { stroke: #594638; stroke-width: 4px; }
+.home-room-scene .room-floor { border-top-color: #9a7b61; }
+.home-room-scene .room-label { display: none; }
+.home-placeholder-label { flex: 0 0 25px; padding: 5px 8px; text-align: center; color: #6f5a48; background: #e8c7a3; font-size: 9px; line-height: 15px; letter-spacing: .5px; border-top: 1.5px dashed #a1886b; }
+.room-event-layer { position: absolute; inset: 0; z-index: 50; pointer-events: none; }
+.home-context { display: flex; align-items: center; gap: 12px; padding: 8px 21px; min-width: 0; }
+.hint-symbol { flex: 0 0 36px; width: 36px; height: 36px; background: #efb98c; border: 1.8px solid var(--ink); border-radius: 44% 52% 45% 55%; padding: 7px; transform: rotate(-7deg); }
+.hint-symbol svg { width: 100%; height: 100%; }
+.hint-caption { font-size: 9px; color: #92735d; letter-spacing: 2px; }
+.home-context p { margin: 3px 0 0; font-size: 12px; line-height: 1.6; overflow-wrap: anywhere; }
+.home-navigation.bottom-nav { margin: 0 12px; border: 0; border-top: 2px solid var(--ink); padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 3px; }
+.home-navigation.bottom-nav button { min-height: 44px; min-width: 0; gap: 2px; padding: 4px 0; align-self: stretch; justify-content: center; color: var(--ink); border-radius: 15px 12px 4px 4px; cursor: pointer; }
+.home-navigation.bottom-nav button[aria-current] { background: #f4dfcd; }
+.home-navigation.bottom-nav svg { width: 23px; height: 23px; }
+.home-navigation.bottom-nav span { font-size: 11px; font-weight: 600; letter-spacing: 2px; line-height: 1.3; }
+.home-navigation.bottom-nav small { font-size: 8px; background: transparent; border-radius: 0; padding: 0; color: #8b7465; line-height: 1.2; letter-spacing: .5px; }
+.home-navigation.bottom-nav button:active { background: #e8dced; }
+.home-sheet { --ink: #3c332f; color: var(--ink); width: min(90vw, 380px); max-height: 85vh; max-height: 85dvh; overflow-y: auto; padding: 26px; border: 2.5px solid var(--ink); border-radius: 24px 19px 26px 17px; background: #fff9ed; box-shadow: 6px 7px 0 #3c332f26; }
+.home-sheet::backdrop { background: #372d3c66; }
+.sheet-decoration { width: 35px; height: 35px; color: #aa7854; margin-bottom: 16px; }
+.sheet-kicker { font-size: 10px; letter-spacing: 2px; color: #88715e; }
+.home-sheet h2 { font-size: 21px; line-height: 1.5; margin: 10px 0; color: var(--ink); }
+.sheet-description { font-size: 13px; line-height: 1.8; }
+#home-sheet-detail { font-size: 12px; line-height: 1.9; padding: 13px; border-radius: 12px; background: #eee5f3; margin: 16px 0 22px; }
+.sheet-close { width: 100%; min-height: 46px; color: var(--ink); background: #efb98c; border: 2px solid var(--ink); border-radius: 13px 10px 15px 9px; cursor: pointer; font: inherit; font-size: 13px; font-weight: 600; }
+.sheet-close span { margin-left: 16px; }
+@media (min-width: 600px) {
+  .s3-app { display: grid; place-items: center; padding: 16px; background-image: radial-gradient(#b5a4bf33 1px, transparent 1px); background-size: 16px 16px; }
+  .s3-home { width: min(430px, calc((100dvh - 32px) * .5)); min-width: 300px; height: min(932px, calc(100dvh - 32px)); border: 2px solid #3c332f; border-radius: 28px 24px 29px 25px; box-shadow: 8px 10px 0 #3c332f17; overflow: hidden; }
+  .home-header { padding-inline: 17px; }
+  .home-heading h1 { font-size: 24px; }
+  .home-heading p > span { display: none; }
+}
+@media (max-width: 350px) {
+  .home-header { padding-inline: 14px; }
+  .home-heading h1 { font-size: 20px; }
+  .home-heading p > span { display: none; }
+  .home-context { padding-inline: 16px; gap: 9px; }
+  .home-context p { font-size: 11px; }
+  .home-room-meta { font-size: 9px; padding-inline: 10px; }
+}
+@media (prefers-reduced-motion: reduce) { .settings-button:active { transform: none; } }
+
+/* Fit the original logical canvas into both short and tall scene viewports. */
+.home-room-scene .scene-art { left: 50%; right: auto; width: var(--stage-width, 100%); transform: translateX(-50%); }
+.home-room-scene::before { content: ''; position: absolute; inset: auto 0 0; height: var(--floor-depth, 0px); border-top: 6px solid #9a7b61; background: #d5b38a; }
+
+/* Apply time lighting to the extended wall and fitted stage together. */
+.home-room-scene.time-morning { filter: sepia(.08) brightness(1.03); }
+.home-room-scene.time-evening { filter: sepia(.22) saturate(.85) brightness(.93); }
+.home-room-scene.time-night { background-color: #dfd0be; filter: brightness(.84) saturate(.8); }
+.home-room-scene.time-night .room-wall { background-color: #dfd0be; }
+.home-room-scene.time-morning .scene-art, .home-room-scene.time-evening .scene-art, .home-room-scene.time-night .scene-art { filter: none; }
+
+
+/* Latest S3: scene + navigation only; feedback never reserves a grid row. */
+.scene-settings { position: absolute; z-index: 80; top: 12px; right: 12px; transform: none; padding: 11px; border: 1px solid #75645380; border-radius: 50%; background: #fff9ede6; }
+.scene-settings:active { transform: scale(.95); }
+.home-feedback { position: absolute; z-index: 75; top: 66px; right: 12px; left: 12px; width: fit-content; max-width: calc(100% - 24px); margin-left: auto; padding: 10px 13px; border: 1.5px solid var(--ink); border-radius: 14px 12px 4px 13px; color: var(--ink); background: #fff8ecf5; box-shadow: 2px 3px 0 #3c332f12; font-size: 12px; line-height: 1.6; pointer-events: none; overflow-wrap: anywhere; }
+@media (prefers-reduced-motion: reduce) { .scene-settings:active { transform: none; } }
+
+/* P0-2: two grid rows; navigation never overlays the logical scene. */
+.s3-home--with-navigation .home-scene-region { margin: 0; border: 0; border-radius: 0; box-shadow: none; }
+.s3-home--with-navigation .scene-art-badge { position: absolute; z-index: 65; bottom: 8px; left: 10px; max-width: calc(100% - 20px); padding: 3px 7px; min-height: 0; border: 1px dashed #8a735c; border-radius: 5px; background: #fff9eddb; font-size: 8px; line-height: 1.5; pointer-events: none; }
+.room-approved-image { display: block; width: 100%; height: 100%; object-fit: contain; }
+.approved-sprite { display: block; width: 100%; height: 100%; }
+.technical-character { width: 100%; height: 100%; display: grid; place-items: center; border: 1.5px dashed #9d876e; border-radius: 45% 45% 35% 35%; background: #fff6e5dc; }
+
+
+.technical-character i { width: 5px; height: 5px; border-radius: 50%; background: #b79c7f; }

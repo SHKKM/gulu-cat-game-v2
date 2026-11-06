@@ -1,0 +1,16 @@
+import { CONTENT_CATALOG } from './content.ts'
+import { ANIMATION_CATALOG } from './animations.ts'
+import { BEHAVIOR_CATALOG } from './behaviors.ts'
+import { EVENT_CATALOG, CALENDAR_WINDOWS } from './events.ts'
+import { FURNITURE_CATALOG } from './furniture.ts'
+import { ACCESSORY_CATALOG, ART_CATALOG, DIARY_CATALOG, REWARD_CATALOG, CURRENCY_CATALOG } from './collections.ts'
+import { PREDICATE_DEFINITIONS, EFFECT_DEFINITIONS } from './handlers.ts'
+import type { CatalogBundle } from '../types/catalog.ts'
+
+export const CATALOGS: CatalogBundle = {
+  content: CONTENT_CATALOG, animations: ANIMATION_CATALOG, behaviors: BEHAVIOR_CATALOG,
+  events: EVENT_CATALOG, furniture: FURNITURE_CATALOG, accessories: ACCESSORY_CATALOG,
+  diaries: DIARY_CATALOG, art: ART_CATALOG, rewards: REWARD_CATALOG, currencies: CURRENCY_CATALOG,
+  predicates: PREDICATE_DEFINITIONS, effects: EFFECT_DEFINITIONS, calendarWindows: CALENDAR_WINDOWS,
+}
+export { CONTENT_CATALOG, ANIMATION_CATALOG, BEHAVIOR_CATALOG, EVENT_CATALOG, FURNITURE_CATALOG, ACCESSORY_CATALOG, ART_CATALOG, DIARY_CATALOG, REWARD_CATALOG, CURRENCY_CATALOG, PREDICATE_DEFINITIONS, EFFECT_DEFINITIONS, CALENDAR_WINDOWS }

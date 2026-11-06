@@ -1,0 +1,95 @@
+:root {
+  font-family: -apple-system, BlinkMacSystemFont, 'PingFang TC', 'Microsoft JhengHei', sans-serif;
+  color: #625447;
+  background: #eee8de;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  color-scheme: light;
+}
+* { box-sizing: border-box; }
+body { margin: 0; }
+button { font: inherit; }
+.app { min-height: 100vh; min-height: 100svh; }
+.game-shell {
+  width: 100%; max-width: 480px; margin: 0 auto;
+  min-height: 100vh; min-height: 100svh;
+  display: flex; flex-direction: column;
+  padding: max(30px, env(safe-area-inset-top)) max(22px, env(safe-area-inset-right)) max(18px, env(safe-area-inset-bottom)) max(22px, env(safe-area-inset-left));
+  background: #fbf8f0;
+  background-image: radial-gradient(#bca98b18 .7px, transparent .7px);
+  background-size: 5px 5px;
+}
+.eyebrow { font-size: 9px; letter-spacing: 2.1px; color: #8c7a62; margin: 0 0 13px; display: flex; align-items: center; justify-content: space-between; }
+.eyebrow span { letter-spacing: 1px; border: 1px solid #dcd2c1; border-radius: 5px; padding: 3px 6px; }
+h1 { font-size: clamp(25px, 7vw, 32px); letter-spacing: 2px; line-height: 1.5; font-weight: 600; margin: 0; }
+.title-spark { display: inline-block; color: #bb8f60; margin-left: 12px; font-size: 25px; font-weight: 400; transform: rotate(14deg); }
+.date-line { display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: center; justify-content: space-between; font-size: 11px; color: #857763; margin: 12px 0 28px; }
+.date-line span { font-size: 10px; letter-spacing: 1px; }
+.home { margin-bottom: 20px; }
+.room-heading { display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; }
+.room-heading h2 { font-size: 13px; font-weight: 500; letter-spacing: 1.5px; margin: 0; }
+.time-badge { display: flex; align-items: center; gap: 6px; background: #f0ebde; border-radius: 20px; padding: 6px 9px; font-size: 10px; }
+.time-badge i { width: 6px; height: 6px; border-radius: 50%; background: #a2a780; }
+.room-scene { position: relative; aspect-ratio: 390 / 440; isolation: isolate; border: 1.5px solid #ad987e; border-radius: 48% 48% 5px 7px / 12% 12% 5px 7px; overflow: hidden; background: #f0e4cd; box-shadow: 0 5px 0 #e9e0d1; }
+.scene-art { position: absolute; inset: 0; }
+.room-wall { position: absolute; inset: 0 0 39%; z-index: 0; background: #f1e7d1; background-image: radial-gradient(#b39a742c .8px, transparent .8px); background-size: 9px 11px; }
+.room-floor { position: absolute; inset: 61% 0 0; z-index: 1; background-color: #d5b38a; background-image: repeating-linear-gradient(0deg, transparent 0 37px, #ad896644 38px 39px), repeating-linear-gradient(90deg, transparent 0 104px, #ad896633 105px 106px); border-top: 6px solid #b99a75; }
+.window-light { position: absolute; z-index: 2; top: 45%; left: 9%; width: 46%; height: 40%; background: #fff1bb; opacity: .22; clip-path: polygon(0 0, 50% 0, 100% 100%, 15% 100%); }
+.scene-object { position: absolute; color: #8f765b; }
+.scene-object svg, .scene-object img { display: block; width: 100%; height: 100%; }
+.scene-object img { object-fit: contain; }
+.window-sky { fill: #c7ddd6; }
+.sky-orb { fill: #fff1b8; }
+.window-cloud { stroke: #eff2df; stroke-width: 5px; }
+.window-frame { stroke: #9f8566; stroke-width: 5px; }
+.character-placeholder { width: 100%; height: 100%; border: 1.5px dashed #9b8263; border-radius: 45% 45% 35% 35%; background: #fff9e78c; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 4px; color: #75634d; }
+.character-placeholder > span:first-child { font-size: 23px; font-weight: 300; }
+.character-placeholder > span:nth-child(2) { font-size: 12px; letter-spacing: 2px; }
+.character-placeholder small { font-size: 9px; }
+.room-label { position: absolute; z-index: 60; bottom: 10px; left: 0; right: 0; text-align: center; font-size: 7px; letter-spacing: 2.5px; color: #775e43; }
+.time-morning .scene-art { filter: sepia(.08) brightness(1.03); }
+.time-day .window-light { opacity: .38; }
+.time-evening .scene-art { filter: sepia(.22) saturate(.85) brightness(.93); }
+.time-evening .window-sky { fill: #e7ae98; }
+.time-evening .window-light { background: #ffc18b; opacity: .38; }
+.time-night .scene-art { filter: brightness(.72) saturate(.65); }
+.time-night .room-wall { background-color: #c3c5c2; }
+.time-night .window-sky { fill: #596c86; }
+.time-night .sky-orb { fill: #f8eed0; }
+.time-night .window-cloud { opacity: .25; }
+.time-night .window-light { background: #c6d8ed; opacity: .18; }
+.room-caption { display: flex; align-items: center; justify-content: center; gap: 8px; margin-top: 20px; }
+.room-caption > span { font-size: 19px; color: #a18b6e; }
+.room-caption p { font-size: 11px; letter-spacing: 1px; margin: 0; }
+.asset-note { text-align: center; font-size: 9px; color: #8c7e6e; margin: 8px 0 0; line-height: 1.7; }
+.page-footer { margin-top: auto; }
+.footer-note { text-align: center; font-size: 9px; letter-spacing: 2px; color: #95856f; margin: 4px 0 16px; }
+.bottom-nav { display: flex; border-top: 1px solid #dfd6c6; padding-top: 15px; gap: 12px; }
+.bottom-nav button { flex: 1; min-width: 0; min-height: 84px; border: 0; padding: 0 2px; background: transparent; color: #7c6c57; display: flex; align-items: center; flex-direction: column; gap: 6px; touch-action: manipulation; }
+.bottom-nav button:disabled { opacity: 1; cursor: default; }
+.bottom-nav svg { width: 27px; height: 27px; }
+.bottom-nav span { font-size: 12px; letter-spacing: 2px; }
+.bottom-nav small { font-size: 9px; color: #8e806d; background: #eee8dc; padding: 3px 7px; border-radius: 4px; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+@media (max-width: 350px) {
+  .game-shell { padding-left: max(14px, env(safe-area-inset-left)); padding-right: max(14px, env(safe-area-inset-right)); }
+  .title-spark { margin-left: 6px; }
+  .date-line { margin-bottom: 20px; }
+}
+
+/* Fixed-canvas character rendering; existing room layout is unchanged. */
+.gulu-character { pointer-events: none; }
+.gulu-idle-animation { position: relative; width: 100%; aspect-ratio: 1; }
+.gulu-idle-animation img { position: absolute; inset: 0; display: block; width: 100%; height: auto; object-fit: contain; }
+.gulu-sprite, .gulu-sprite canvas, .gulu-accessories { position: absolute; inset: 0; width: 100%; height: 100%; }
+.gulu-sprite canvas { display: block; }
+.gulu-accessories { z-index: 1; }
+
+/* Shared scene planes remain available to the existing animation lab. */
+.scene-layer { position: absolute; inset: 0; pointer-events: none; }
+.scene-background-layer { z-index: 0; }
+.scene-wall-furniture-layer { z-index: 10; }
+.scene-furniture-layer { z-index: 30; }
+.scene-character-layer { z-index: 40; }
+.scene-foreground-layer { z-index: 50; }
